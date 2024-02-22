@@ -24,11 +24,23 @@ const Testimonial = () => {
   };
 
   return (
+    
     <div className="dizme_tm_section">
+        <style jsx>{`
+        .testimo {
+          font-size: 2.3rem;
+        }
+
+        @media (max-width: 600px) {
+          .testimo {
+            font-size: 1.4rem; /* Adjust the font size for smaller screens */
+          }
+        }
+      `}</style>
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span>
-          <h3>What My Clients Say</h3>
+          <span>Testimonials</span> <br/>
+          <span className="testimo">What My Clients Say</span>
           {/* <p>
             Most common methods for designing websites that work well on desktop
             is responsive and adaptive design

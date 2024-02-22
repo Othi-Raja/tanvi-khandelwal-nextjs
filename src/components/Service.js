@@ -1,13 +1,13 @@
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
-import { fatchData } from "../utilits";
-import ServicePopup from "./popup/ServicePopup";
+import { fatchData } from "../utilits"; 
+
 const Service = ({ dark }) => {
   const [data, setData] = useState([]);
-  const [popupdata, setPopupdata] = useState({});
-  const [popup, setPopup] = useState(false);
+  const [ setPopupdata] = useState({});
+  const [ setPopup] = useState(false);
   useEffect(async () => {
-    setData(await fatchData("/static/service.json")); 
+    setData(await fatchData("/static/service.json"));
     setTimeout(() => {
       let VanillaTilt = require("vanilla-tilt");
       VanillaTilt.init(document.querySelectorAll(".tilt-effect"), {
@@ -25,22 +25,16 @@ const Service = ({ dark }) => {
     setPopup(true);
     setPopupdata(data && data[index]);
   };
+
   return (
     <div className="dizme_tm_section" id="service">
-      {/* <ServicePopup
-        data={popupdata}
-        open={popup}
-        close={() => setPopup(false)}
-      /> */}
+  
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>Services</span>
             <h3>What I Do for Clients</h3>
-            {/* <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
-            </p> */}
+           
           </div>
           <div className="service_list">
             <ul>
@@ -49,11 +43,10 @@ const Service = ({ dark }) => {
                   (data, i) =>
                     data && (
                       <li
-                        className={`wow ${(i * 1) % 2 === 0 ? "fadeInLeft" : "fadeInRight"
-                          }`}
-                        data-wow-duration="1s"
-                        key={i}
-                        onClick={() => onClick(i)}
+                        className={`wow ${
+                          (i * 1) % 2 === 0 ? "fadeInLeft" : "fadeInRight"
+                        }`}
+                      
                       >
                         <div className="list_inner tilt-effect" onClick={(e) => {
                           e.preventDefault(); // Prevents the default behavior (following the link)
@@ -61,32 +54,16 @@ const Service = ({ dark }) => {
                         }}>
                           <span className="icon">
                             {parse(data.icon.svg)}
-                            {dark ? (
-                              <img
-                                className="back"
-                                src={data.icon.iconBgDark}
-                                alt="image"
-                              />
-                            ) : (
-                              <img
-                                className="back"
-                                src={data.icon.iconBg}
-                                alt="image"
-                              />
-                            )}
+                           
                           </span>
                           <div className="title">
                             <h3>{data.title}</h3>
+                            
                           </div>
                           <div className="text">
                             <p>{data.shortDec}</p>
                           </div>
-                          <a className="dizme_tm_full_link" href="#" />
-                          <img
-                            className="popup_service_image"
-                            src="img/service/1.jpg"
-                            alt="image"
-                          />
+                          
                         </div>
                       </li>
                     )
