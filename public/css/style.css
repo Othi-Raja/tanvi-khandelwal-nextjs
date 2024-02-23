@@ -522,7 +522,10 @@ h6 {
   clear: both;
   float: left;
   position: relative;
-  margin-bottom: 190px;
+  margin-bottom: 10px;
+}
+.swiper{
+  height: 200px;
 }
 .dizme_tm_hero .background {
   position: absolute;
@@ -3503,10 +3506,11 @@ input[type="number"] {
     font-size: 19px;
   }
   .dizme_tm_hero {
-    margin-bottom: 135px;
+    margin-bottom: 80px;
+    
   }
   .dizme_tm_about {
-    padding-top: 50px;
+    padding-top: 0;
   }
   .dizme_tm_portfolio {
     padding-top: 113px;
