@@ -162,7 +162,7 @@ h6 {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-
+/* 
 #preloader {
   position: fixed;
   left: 0;
@@ -181,7 +181,7 @@ h6 {
   width: 50%;
   height: 100%;
   z-index: -1;
-  background-color: #000;
+  background-color: #434141;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -257,8 +257,7 @@ h6 {
     transform: translateY(200%);
   }
 }
-
-/*hiding all*/
+ 
 .preloaded .loader_line:after {
   opacity: 0;
 }
@@ -279,7 +278,7 @@ h6 {
   100% {
     width: 0%;
   }
-}
+} */
 .dizme_tm_section {
   width: 100%;
   height: auto;
