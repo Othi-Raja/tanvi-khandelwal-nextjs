@@ -857,7 +857,7 @@ h6 {
   float: left;
   padding-top: 112px;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: -15px;
 }
 .dizme_tm_about .wrapper {
   width: 100%;
@@ -2601,7 +2601,7 @@ input[type="number"] {
   list-style-type: none;
 }
 .dizme_tm_copyright .right ul li {
-  margin: 0px 42px 0px 0px;
+  margin: 0px 10px 0px 0px;
   display: inline-block;
 }
 .dizme_tm_copyright .right ul li:last-child {
@@ -3175,7 +3175,7 @@ input[type="number"] {
   .dizme_tm_hero .avatar {
     padding: 0px;
     width: auto;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
   }
   .dizme_tm_hero .avatar img {
     max-width: 300px;
@@ -3225,7 +3225,8 @@ input[type="number"] {
   }
   .dizme_tm_about .wrapper {
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
+
   }
   .dizme_tm_about .left {
     padding-right: 0px;
@@ -3400,8 +3401,8 @@ input[type="number"] {
 }
 @media (max-width: 768px) {
   .dizme_tm_hero .avatar img {
-    max-width: 220px;
-    max-height: 220px;
+    max-width: 440px;
+    max-height: 440px;
     margin-top: 140px;
   }
   .dizme_tm_hero .job {
@@ -3412,6 +3413,9 @@ input[type="number"] {
   }
   .dizme_tm_hero .hello h3 {
     font-size: 21px;
+  }
+  .dizme_tm_about .left .image img{
+    display: none;
   }
   .dizme_tm_hero .text p {
     font-size: 16px;
@@ -3453,6 +3457,8 @@ input[type="number"] {
   .dizme_tm_news ul li {
     width: 100%;
     padding-left: 0px;
+   border-bottom: 2px solid red;
+   margin-bottom: 20px;
   }
   .dizme_tm_contact .input_list ul {
     margin: 0px;
@@ -3539,7 +3545,7 @@ input[type="number"] {
   }
   .dizme_tm_news {
     padding-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
   }
   .dizme_tm_contact {
     padding-top: 123px;

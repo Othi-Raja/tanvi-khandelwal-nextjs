@@ -19,7 +19,7 @@ const Index = () => {
       <Home />
       {/* HERO */}
       {/* PROCESS */}
-      <Process />
+      {/* <Process /> */}
       {/* /PROCESS */}
       {/* ABOUT */}
       <About />
@@ -28,7 +28,7 @@ const Index = () => {
       {/* <Portfolio /> */}
       {/* /PORTFOLIO */}
       {/* SKILLS */}
-      <Skills />
+      {/* <Skills /> */}
       {/* /SKILLS */}
       {/* SERVICES */}
       <Service />

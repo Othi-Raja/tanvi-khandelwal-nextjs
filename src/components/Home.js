@@ -16,7 +16,7 @@ const Home = ({ dark }) => {
           <div className="content">
             <div className="details">
               <div className="hello">
-                <h3 className="orangeText">{`Hello, I'm`}</h3>
+                <h3 className="orangeText">{`Hi,There`}</h3>
               </div>
               <div className="name">
                 <h3>{data && data.name ? data.name : "name"}</h3>
@@ -53,8 +53,8 @@ const Home = ({ dark }) => {
             </div>
             <div className="avatar">
               <div className="image">
-                <img
-                  src={data && data.img ? data.img : "/img/slider/avatar.png"}
+                <img  style={{height:'auto', weight:'900px'}}
+                  src={  data.img }
                   alt="image"
                 />
                 {/* {data &&

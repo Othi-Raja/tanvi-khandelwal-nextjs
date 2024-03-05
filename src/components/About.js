@@ -23,7 +23,7 @@ const About = ({ dark }) => {
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={100} />+
+                      <Counter end={50} />+
                     </h3>
                     <span className="name">
                       Total
@@ -41,10 +41,8 @@ const About = ({ dark }) => {
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                   I'm Tanvi Khandelwal, an HR Specialist by profession, dedicated Art of Living volunteer, With a keen
-  interest in human resources, I bring expertise to the intersection of people and organizations.
-  I believe in the power of collaboration! Open to paid collaborations and partnerships. <b>Let's create something
-  amazing together!</b>
+                <b>  An HR Specialist, Influencer, and Content Creator </b> <br/> I'm passionate about connecting talented individuals with the perfect opportunities. With years of experience in the HR field, I've honed my skills to understand what employers are looking for and how to best position candidates for success.
+                  Through my content creation journey, I've had the privilege of sharing valuable insights, tips, and resources to empower job seekers like you. Whether it's crafting the perfect resume, mastering interview techniques, or navigating the complexities of the job market Your dream job awaits – <b>let's make it happen!</b>
                 </p>
               </div>
               <div
