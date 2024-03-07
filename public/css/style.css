@@ -3416,7 +3416,7 @@ input[type="number"] {
   .dizme_tm_hero .avatar img {
     max-width: 440px;
     max-height: 440px;
-    margin-top: 140px;
+    /* margin-top: 140px; */
   }
   .dizme_tm_hero .job {
     margin-bottom: 15px;
@@ -3525,7 +3525,7 @@ input[type="number"] {
     font-size: 19px;
   }
   .dizme_tm_hero {
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
     height: 130vh;
     
   }
