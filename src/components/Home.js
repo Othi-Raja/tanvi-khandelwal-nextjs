@@ -9,7 +9,7 @@ const Home = ({ dark }) => {
   }, []);
 
   return (
-    <div className="dizme_tm_section" id="home" style={{ background: 'url("img/slider/1.jpg")', backgroundSize: 'cover' }}>
+    <div className="dizme_tm_section" id="home" style={{ background: 'url("img/slider/1.jpg")', backgroundSize: 'cover'}}>
       <div className="dizme_tm_hero">
       
         <div className="container">
