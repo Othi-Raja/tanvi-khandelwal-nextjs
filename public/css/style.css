@@ -33,6 +33,7 @@ html {
   overflow-x: hidden;
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -162,7 +163,6 @@ h6 {
   -moz-box-sizing: border-box; /* Firefox, other Gecko */
   box-sizing: border-box; /* Opera/IE 8+ */
 }
-/* 
 #preloader {
   position: fixed;
   left: 0;
@@ -181,7 +181,11 @@ h6 {
   width: 50%;
   height: 100%;
   z-index: -1;
-  background-color: #434141;
+/* From https://css.glass */
+background: rgba(238, 233, 233, 0.505);
+border-radius: 16px; 
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -192,7 +196,7 @@ h6 {
 }
 #preloader .loader_line {
   margin: auto;
-  width: 1px;
+  width: 4px;
   height: 250px;
   position: relative;
   overflow: hidden;
@@ -205,13 +209,15 @@ h6 {
   position: absolute;
   left: 0;
   top: 50%;
-  width: 1px;
+  width: 10px;
   height: 0%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #fff;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
   -webkit-animation: lineheight 1000ms ease-in-out 0s forwards;
   -o-animation: lineheight 1000ms ease-in-out 0s forwards;
   animation: lineheight 1000ms ease-in-out 0s forwards;
@@ -221,7 +227,7 @@ h6 {
   position: absolute;
   left: 0;
   top: 0;
-  width: 1px;
+  width: 10px;
   height: 100%;
   background-color: #999999;
   -webkit-transform: translateY(-100%);
@@ -257,7 +263,8 @@ h6 {
     transform: translateY(200%);
   }
 }
- 
+
+/*hiding all*/
 .preloaded .loader_line:after {
   opacity: 0;
 }
@@ -278,7 +285,7 @@ h6 {
   100% {
     width: 0%;
   }
-} */
+}
 .dizme_tm_section {
   width: 100%;
   height: auto;
@@ -3403,6 +3410,9 @@ input[type="number"] {
     max-width: 440px;
     max-height: 440px;
     margin-top: 140px;
+  }
+  .dizme_tm_section{
+    height: 130vh;
   }
   .dizme_tm_hero .job {
     margin-bottom: 15px;
