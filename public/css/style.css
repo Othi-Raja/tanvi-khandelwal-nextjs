@@ -181,7 +181,7 @@ h6 {
   width: 50%;
   height: 100%;
   z-index: -1;
-  background-color: #434141;
+  background-color: #ffffffba;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
@@ -3402,6 +3402,12 @@ input[type="number"] {
     align-items: center;
   }
 }
+/* @media (max-width: 325px) {
+  .home{
+    height: 170vh;
+    z-index: 999;
+  }
+} */
  
 @media (max-width: 768px) {
   .home{
@@ -3520,6 +3526,7 @@ input[type="number"] {
   }
   .dizme_tm_hero {
     margin-bottom: 80px;
+    height: 130vh;
     
   }
   .dizme_tm_about {
