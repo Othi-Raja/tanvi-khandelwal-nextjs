@@ -3181,8 +3181,8 @@ input[type="number"] {
     /* margin-bottom: 30px; */
   }
   .dizme_tm_hero .avatar img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
   }
   .dizme_tm_hero .skills {
     display: none;
@@ -3411,7 +3411,7 @@ input[type="number"] {
  
 @media (max-width: 768px) {
   .home{
-    height: 130vh;
+    height: 110vh;
   }
   .dizme_tm_hero .avatar img {
     max-width: 440px;
@@ -3525,8 +3525,8 @@ input[type="number"] {
     font-size: 19px;
   }
   .dizme_tm_hero {
-    /* margin-bottom: 80px; */
-    height: 130vh;
+    /* margin-bottom: 80px;- */
+    height: 100vh;
     
   }
   .dizme_tm_about {
