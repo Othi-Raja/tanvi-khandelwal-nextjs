@@ -48,9 +48,9 @@ const About = ({ dark }) => {
             
   {/* <h5 style={{  }}>Follow More</h5> */}
   <div style={{marginTop:'0',marginLeft:'20px',marginBottom:'30px' }}>
-    <a className=" wow fadeInUp" data-wow-duration="1s" href="https://www.instagram.com"><img src="img/icons8-twitter-50.png" style={{ height: '30px',marginRight:'20px'}} /></a>
-    <a className=" wow fadeInUp" data-wow-duration="1.8s" href="https://twitter.com"><img src="img/icons8-insta-50.png" style={{ height: '30px',marginRight:'20px' }} /></a>
-    <a className=" wow fadeInUp"data-wow-duration="2s" href="https://www.linkedin.com"><img src="img/In-Blue.png" style={{ height: '30px',marginRight:'0' }} /></a>
+    <a className=" wow fadeInUp" data-wow-duration="1s" href="https://twitter.com/Tanvi_srisri " target="blank"><img src="img/icons8-twitter-50.png" style={{ height: '30px',marginRight:'20px'}} /></a>
+    <a className=" wow fadeInUp" data-wow-duration="1.8s" href="https://www.instagram.com/tanvi_khandelwal__?igsh=MWJsa3Y4aG5lbmFlNg==" target="blank"><img src="img/icons8-insta-50.png" style={{ height: '30px',marginRight:'20px' }} /></a>
+    <a className=" wow fadeInUp"data-wow-duration="2s" href="https://www.linkedin.com/in/tanvi-khandelwal-57a426182/" target="blank"><img src="img/In-Blue.png" style={{ height: '30px',marginRight:'0' }} /></a>
   </div>
  
               <div>
