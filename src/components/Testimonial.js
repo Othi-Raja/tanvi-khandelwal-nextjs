@@ -36,11 +36,12 @@ const Testimonial = () => {
             font-size: 1.4rem; /* Adjust the font size for smaller screens */
           }
         }
-      `}</style>
+      `}
+      </style>
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
-          <span>Testimonials</span> <br/>
-          <span className="testimo">What My Clients Say</span>
+          <span className=" wow fadeInUp"data-wow-duration="1.4s">Testimonials</span> <br/>
+          <span className="testimo wow fadeInUp" data-wow-duration="2s">What My Clients Say</span>
           {/* <p>
             Most common methods for designing websites that work well on desktop
             is responsive and adaptive design
@@ -91,7 +92,7 @@ const Testimonial = () => {
               </Swiper>
               <div className="owl-dots"></div>
             </div>
-            <div className="left_details">
+            {/* <div className="left_details">
               <div
                 className="det_image one wow fadeIn"
                 data-wow-duration="1s"
@@ -118,8 +119,8 @@ const Testimonial = () => {
               <span className="circle green animPulse" />
               <span className="circle yellow animPulse" />
               <span className="circle border animPulse" />
-            </div>
-            <div className="right_details">
+            </div> */}
+            {/* <div className="right_details">
               <div
                 className="det_image one wow fadeIn"
                 data-wow-duration="1s"
@@ -140,12 +141,12 @@ const Testimonial = () => {
               <span className="circle yellow animPulse" />
               <span className="circle purple animPulse" />
               <span className="circle border animPulse" />
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="brush_1 wow fadeInRight" data-wow-duration="1s">
+        {/* <div className="brush_1 wow fadeInRight" data-wow-duration="1s">
           <img src="img/brushes/testimonials/1.png" alt="image" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

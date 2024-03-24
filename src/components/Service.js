@@ -32,8 +32,8 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Services</span>
-            <h3>What I Do for Clients</h3>
+            <span className="wow fadeInUp " data-wow-duration="1s">Services</span>
+            <h3 className="wow fadeInUp " data-wow-duration="1.3s">What I Do for Clients</h3>
            
           </div>
           <div className="service_list">
@@ -56,12 +56,12 @@ const Service = ({ dark }) => {
                             {parse(data.icon.svg)}
                            
                           </span>
-                          <div className="title">
-                            <h3>{data.title}</h3>
+                          <div className="title wow fadeInUp"data-wow-duration="1s">
+                            <h3  className=" wow fadeInUp"data-wow-duration="1s">{data.title}</h3>
                             
                           </div>
                           <div className="text">
-                            <p>{data.shortDec}</p>
+                            <p className=" wow fadeInUp"data-wow-duration="2s">{data.shortDec}</p>
                           </div>
                           
                         </div>
@@ -71,12 +71,12 @@ const Service = ({ dark }) => {
             </ul>
           </div>
         </div>
-        <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
+        {/* <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
           <img src="img/brushes/service/5.png" alt="image" />
         </div>
         <div className="brush_2 wow zoomIn" data-wow-duration="1s">
           <img src="img/brushes/service/6.png" alt="image" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

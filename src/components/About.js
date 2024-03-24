@@ -41,27 +41,38 @@ const About = ({ dark }) => {
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
                 <p>
-                <b>  An HR Specialist, Influencer, and Content Creator </b> <br/> I'm passionate about connecting talented individuals with the perfect opportunities. With years of experience in the HR field, I've honed my skills to understand what employers are looking for and how to best position candidates for success.
-                  Through my content creation journey, I've had the privilege of sharing valuable insights, tips, and resources to empower job seekers like you. Whether it's crafting the perfect resume, mastering interview techniques, or navigating the complexities of the job market Your dream job awaits – <b>let's make it happen!</b>
+                <b style={{color:'#f75023'}}>  An HR Specialist, Influencer, and Content Creator </b> <br/> I'm passionate about connecting talented individuals with the perfect opportunities. With years of experience in the HR field, I've honed my skills to understand what employers are looking for and how to best position candidates for success.
+                  Through my content creation journey, I've had the privilege of sharing valuable insights, tips, and resources to empower job seekers like you.  <b  style={{color:'#f75023'}}>let's make it happen!</b>
                 </p>
               </div>
-              <div
-                className="dizme_tm_button wow fadeInUp"
-                data-wow-duration="1s"
-              >
-                <a className="anchor" href="https://topmate.io/tanvi_khandelwal1" target="blank">
-                  <span>Join With Me</span>
-                </a>
+            
+  {/* <h5 style={{  }}>Follow More</h5> */}
+  <div style={{marginTop:'0',marginLeft:'20px',marginBottom:'30px' }}>
+    <a className=" wow fadeInUp" data-wow-duration="1s" href="https://www.instagram.com"><img src="img/icons8-twitter-50.png" style={{ height: '30px',marginRight:'20px'}} /></a>
+    <a className=" wow fadeInUp" data-wow-duration="1.8s" href="https://twitter.com"><img src="img/icons8-insta-50.png" style={{ height: '30px',marginRight:'20px' }} /></a>
+    <a className=" wow fadeInUp"data-wow-duration="2s" href="https://www.linkedin.com"><img src="img/In-Blue.png" style={{ height: '30px',marginRight:'0' }} /></a>
+  </div>
+ 
+              <div>
+                <div
+                  className="dizme_tm_button wow fadeInUp"
+                  data-wow-duration="1s">
+                  <a className="anchor" href="https://topmate.io/tanvi_khandelwal1" target="blank">
+                    <span>Join With Me</span>
+                  </a>
+                </div>
+      
+
               </div>
-            </div>
+           </div>
           </div>
         </div>
-        <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
+        {/* <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
           <img src="img/brushes/about/1.png" alt="image" />
-        </div>
-        <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
+        </div> */}
+        {/* <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
           <img src="img/brushes/about/2.png" alt="image" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -7,16 +7,18 @@ const CopyRight = ({ brandName }) => {
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
-                <img src="img/logo.webp" style={{height:'40px'}}/>
+              <a href="https://www.softrateglobal.com/" target="blank">
+              <img src="img/logo.webp" style={{height:'40px'}}/>
+              </a>
               </p>
             </div>
             <div className="right wow fadeInRight" data-wow-duration="1s">
               <ul>
                 <li>
-                  <a href="https://www.softrateglobal.com/index.html" target="blank">{`Powered By Softrate`}</a>
+                  <a href="https://www.softrateglobal.com/" target="blank">{`Powered By Softrate`}</a>
                 </li>
                 <li>
-                  <a href="https://www.softrateglobal.com/index.html"target="blank">@Copyright Reserved to Softrate Technologies 2024.</a>
+                  <a href="https://www.softrateglobal.com/"target="blank">@Copyright Reserved to Softrate Technologies 2024.</a>
                 </li>
               </ul>
             </div>

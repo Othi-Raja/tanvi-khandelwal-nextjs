@@ -21,8 +21,8 @@ const News = () => {
       <div className="dizme_tm_news">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>From social Media</span>
-            <h3>{`Our Recent Updates`}</h3>
+            <span className=" wow fadeInUp"data-wow-duration="1s">From social Media</span>
+            <h3 className=" wow fadeInUp"data-wow-duration="2s">{`Our Recent Updates`}</h3>
           </div>
           <div className="news_list" >
             <ul>
@@ -79,12 +79,12 @@ const News = () => {
             </ul>
           </div>
         </div>
-        <div className="brush_1 wow zoomIn" data-wow-duration="1s">
+        {/* <div className="brush_1 wow zoomIn" data-wow-duration="1s">
           <img src="img/brushes/news/1.png" alt="image" />
         </div>
         <div className="brush_2 wow zoomIn" data-wow-duration="1s">
           <img src="img/brushes/news/2.png" alt="image" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
