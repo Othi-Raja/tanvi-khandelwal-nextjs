@@ -53,7 +53,7 @@ const Home = ({ dark }) => {
             </div>
             <div className="avatar">
               <div className="image">
-                <img  style={{height:'auto', weight:'900px'}}
+                <img  style={{height:'auto', wight:'500px'}}
                   src={  data.img }
                   alt="image"
                 />
